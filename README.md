@@ -1,4 +1,5 @@
 ##About
+
 So, the way i feel about these assignments is, that they are meant to show how a person thinks,
 how he solves issues, which tools he is capable at etc. It's imho not about having the answers to the problem,
 as it most likely was solved already. Hence, some parts might not be strictly speaking according to the
@@ -39,7 +40,7 @@ quite pointless. Hence, in real life, I would have asked somebody, who actually 
 Not much to comment I'd say. Tried to make it quite self explanatory. Maybe project structure could have been
 bit nicer, but for assignment purposes I would argue it hardly matters.
 
-Maybe also worth noting, there is a super simple validation in the data loading part to ensure certain assumption
+Maybe also worth noting, there is a super simple validation in the data loading part to ensure certain assumptions
 about the data are met.
 
 
@@ -52,8 +53,8 @@ been up to the user to figure out concrete clients to investigate.
 The requested metrics are shown as KPI's, also with comparison to the mean of the dataset. Gives at least bit of context.
 
 Alright, maybe for Pali it would have been clear from the requested information, but for somebody who does
-not work with the data, it wasn't. Hence, I made a sort of tagging to flag domains, based certain criteria
-I thought of based on the data. They are:
+not work with the data, it wasn't. Hence, I made a sort of tagging to flag domains based on certain criteria
+I thought of based from the data. They are:
 
 * Inactive accounts - I would suspect, that if a client has a lot of inactive users, he is not using the company
     services, so he might not feel justified to pay for it in the future, so it might be worth contacting him and
@@ -92,6 +93,8 @@ towards those. There are also domains, that are surprisingly inactive, so it mig
 
 Streamlit is awesome, but the basic formatting is a shame. The bars with gridlines and no values, the table that's 
 weirdly aligned...But still, it's really simple concept and i like that.
+
+.gitignore is missing, shame
 
 
 
