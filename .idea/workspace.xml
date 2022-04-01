@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac3c592-ffa1-4562-8458-b9bc47e001ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7f273bcd-1a48-4e09-a5cf-7ad259eabdf6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/slido.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/_data.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/_data.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/grouping.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/stats_per_acc.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_kpis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/slido.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/slido.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/_data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/_data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slido Analytics Assignment.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Slido Analytics Assignment.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/_data.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/grouping.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data/grouping.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stats_per_acc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data/stats_per_acc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,31 +92,27 @@
   </component>
   <component name="ProjectId" id="261E6zsg0o2uBYPrzP81ZD2sNRx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/calculations.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel.Klammert\Desktop\slido_assignment" />
+      <recent name="C:\Users\Pavel.Klammert\Desktop\slido_assignment\src\helpers" />
       <recent name="C:\Users\Darth\PycharmProjects\slido\src\data" />
       <recent name="C:\Users\Darth\PycharmProjects\slido\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="slido" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +135,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="slido" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="slido" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +167,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Pavel.Klammert\Desktop\slido_assignment\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,29 +200,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8da6e7a8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8da6e7a8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@133a9a38" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -242,22 +234,89 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>134</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="552" y="174" width="816" height="729" key="#Intentions" timestamp="1648821257636">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="174" width="816" height="729" key="#Intentions/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648821257636" />
+    <state x="722" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648826280181">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="722" y="318" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648826280181" />
+    <state x="729" y="243" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1648820985625">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="729" y="243" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648820985625" />
+    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1648820984987">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="740" y="271" key="FileChooserDialogImpl/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648820984987" />
+    <state width="1899" height="344" key="GridCell.Tab.0.bottom" timestamp="1648828469550">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.bottom/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618276" />
+    <state width="1899" height="344" key="GridCell.Tab.0.bottom/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469550" />
+    <state width="1899" height="344" key="GridCell.Tab.0.center" timestamp="1648828469550">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.center/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618276" />
+    <state width="1899" height="344" key="GridCell.Tab.0.center/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469550" />
+    <state width="1899" height="344" key="GridCell.Tab.0.left" timestamp="1648828469550">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.left/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618276" />
+    <state width="1899" height="344" key="GridCell.Tab.0.left/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469550" />
+    <state width="1899" height="344" key="GridCell.Tab.0.right" timestamp="1648828469550">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.right/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618276" />
+    <state width="1899" height="344" key="GridCell.Tab.0.right/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469550" />
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1648828469549">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618275" />
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469549" />
+    <state width="1899" height="344" key="GridCell.Tab.1.center" timestamp="1648828469548">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.center/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618275" />
+    <state width="1899" height="344" key="GridCell.Tab.1.center/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469548" />
+    <state width="1899" height="344" key="GridCell.Tab.1.left" timestamp="1648828469547">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.left/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618275" />
+    <state width="1899" height="344" key="GridCell.Tab.1.left/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469547" />
+    <state width="1899" height="344" key="GridCell.Tab.1.right" timestamp="1648828469549">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.right/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618275" />
+    <state width="1899" height="344" key="GridCell.Tab.1.right/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469549" />
+    <state width="1899" height="344" key="GridCell.Tab.2.bottom" timestamp="1648828469684">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.bottom/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618434" />
+    <state width="1899" height="344" key="GridCell.Tab.2.bottom/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469684" />
+    <state width="1899" height="344" key="GridCell.Tab.2.center" timestamp="1648828469684">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.center/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618434" />
+    <state width="1899" height="344" key="GridCell.Tab.2.center/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469684" />
+    <state width="1899" height="344" key="GridCell.Tab.2.left" timestamp="1648828469684">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.left/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618434" />
+    <state width="1899" height="344" key="GridCell.Tab.2.left/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469684" />
+    <state width="1899" height="344" key="GridCell.Tab.2.right" timestamp="1648828469684">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.right/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648825618434" />
+    <state width="1899" height="344" key="GridCell.Tab.2.right/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1648828469684" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1648406352841">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/3840.0.1920.1032/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648406352841" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/slido$main.coverage" NAME="main Coverage Results" MODIFIED="1646767948810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
